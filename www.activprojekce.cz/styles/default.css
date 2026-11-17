@@ -1,0 +1,337 @@
+* {margin: 0; padding: 0;}
+
+body {
+	font-family: tahoma;
+	font-size: 100%;
+	text-align: center;
+	background: #181818 url('../images/bg-body.png') repeat-x 0 0;
+	color: #fff;
+}
+p, li {
+	font-size: 80%;
+}
+
+div#mainRight li {
+	margin-left: 15px;
+}
+
+th, td {
+	padding: 2px 3px;
+	font-size: 80%;
+	text-align: left;
+}
+a {
+	color: #9dd531;
+}
+a:hover {
+	text-decoration: none;
+}
+h1, h2, h3 {
+	font-weight: normal;
+}
+hr {
+	height: 1px;
+	font-size: 1px;
+	border: none !important;
+	background-color: #000;
+	color: #000;
+}
+input, textarea {
+	font-family: Tahoma;
+}
+textarea {
+	font-size: 100%;
+}
+img {
+	border: none;
+}
+/* -- */
+.cleaner {
+	clear: both;
+	margin: 0; padding: 0;
+	border: 0;   
+	font-size: 1px;
+}
+.nope {
+	display: none;
+}
+.aright {
+	text-align: right;
+}
+.fleft {
+	float: left;
+}
+.lspacing {
+	letter-spacing: 4px;
+}
+/* Skeleton */
+#content {
+	min-height: 450px;
+	background: transparent url('../images/bg-content.png') no-repeat 13% 5px;
+}
+
+#container {
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	text-align: left;
+}
+	#header {
+		height: 105px;
+		margin-bottom: 30px;
+	}
+		#header a.home {
+			display: block;
+			position: absolute;
+			top: 42px; left: 0;
+			width: 426px; height: 65px;
+			background: transparent url('../images/header-h2.png') no-repeat 0 0;
+			z-index: 100;
+			cursor: pointer;
+		}
+		#mainNavigation {
+			position: absolute;
+			top: 43px; right: 0;
+			z-index: 100;
+		}
+			#mainNavigation ul {
+				list-style: none;
+			}
+			#mainNavigation li {
+				float: left;
+			}
+			#mainNavigation li a {
+				display: block;
+				float: left;
+				width: 88px; height: 26px;
+				margin: 0 3px;
+				line-height: 1.8em;
+				text-align: center;
+				text-decoration: none;
+				color: #fff;
+				cursor: pointer;
+			}
+			#mainNavigation li a:hover {
+				color: #9dd531;
+			}
+			#mainNavigation li a.active {
+				color: #fff;
+				background: transparent url('../images/btn-main-navigation-active.png') no-repeat 0 0;
+			}
+		#mainLeft {
+			float: left;
+			width: 240px;
+		}
+			#mainLeftIn {
+				padding: 0 10px;
+			}
+			#subNavigation {
+				margin-bottom: 20px;
+			}
+			#subNavigation ul {
+				list-style: none;
+			}
+			#subNavigation li {
+				 min-height:34px; _height: 34px;
+				background: transparent url('../images/bg-new.png') repeat-x 0 bottom;
+			}
+			#subNavigation ul li a {
+				display: block;
+				min-height:32px; _height: 32px;
+				padding-left: 15px;
+				font-weight: bold;
+				line-height: 2.2em;
+				text-decoration: none;
+			}
+			#subNavigation ul li a:hover {
+				color: #fff;
+				background: #9DD531 url('../images/btn-sub-navigation.png') repeat-y 0 0;
+			}
+			#subNavigation ul li a.active {
+				color: #fff;
+			}
+			
+			#subNavigation ul li a:-moz-any-link:focus {
+				outline: none;
+			}
+			#subNavigation ul li a:-moz-any-link:focus {
+				outline: 1px dotted invert;
+			}
+
+			
+			#news {
+				padding: 20px 0;
+				background: transparent url('../images/bg-news.png') no-repeat 0 0;
+			}
+			#news h3 {
+				padding: 0 0 15px 13px;
+				color: #c3c3c3;
+			}
+			#news ul {
+				list-style: none;
+			}
+			#news li {
+				color: #767676;
+				margin: 0 12px 12px 12px; padding-bottom: 10px;
+				background: transparent url('../images/bg-new.png') repeat-x 0 bottom;
+			}
+			#news .date {
+				display: block;
+				margin-bottom: 2px; padding-left: 20px;
+				color: #fff;
+				background: transparent url('../images/ico-news.png') no-repeat 0 0;
+			}
+			#mainRight {
+				float: left;
+				width: 735px; 
+				margin-left: 5px;
+				background: transparent url('../images/bg-main-right.png') no-repeat 0 0; 
+			}
+				#mainRightIn {
+					margin-bottom: 10px; padding: 10px 15px 20px 15px;
+				}
+				#mainRightIn h1 {
+					padding-bottom: 15px;
+					color: #9dd531;
+				}
+				#mainRightIn h2 {
+					padding: 21px 0 7px 0;
+					font-size: 120%;
+					color: #cee2a8;
+				}
+				#mainRightIn h3 {
+					color: #fff;
+				}				
+				#mainRightIn p {
+					line-height: 1.5em;
+					color: #fff;
+				}
+				#breadcrumb {
+					padding: 14px 0;
+				}
+				#breadcrumb a {
+					color: #767676 !important;
+				}
+				#breadcrumb p {
+					color: #cecece;
+				}
+				#breadcrumb .last {
+					margin: 0 3px; padding-left: 12px;
+					background: transparent url('../images/ico-breadcrumb.png') no-repeat 0 6px;
+				}
+
+	#footer {
+		position: relative;
+		height: 50px;
+		color: #dbdbd9;
+		background: transparent url('../images/bg-footer.png') repeat-x 0 0;
+	}
+		#footer p {
+			padding-top: 10px;
+			font-size: 75%;
+		}
+		#author {
+			position: absolute;
+			top: 0; right: 0;
+			z-index: 2;
+		}
+/*
+* Pages
+*/
+
+.projectListItem {
+	width: 550px;
+	float: left;
+}
+.projectListImg {
+	margin: 5px 15px;
+	float: left;
+}
+
+#projectInfo {
+	float:left;
+	width: 350px;
+	margin-top: 15px;
+	margin-right: 20px
+}
+#projectInfo table {
+	width: 100%; _width: 98%;
+}
+#projectInfo  td {
+	text-align: right;
+}
+#projectInfo  th {
+	padding-left: 0;
+}
+#projectGallery {
+	margin-top: 15px;
+}
+#projectGallery img {
+	border: 0px;
+	margin: 3px;
+}
+#contactInfo {
+	float:left;
+	width:300px;
+}
+#contactForm th, #contactForm td {
+	vertical-align: top;
+	padding-bottom: 5px;
+}
+#contactForm {
+	float: right;
+	width: 380px;
+}
+#contactForm input, #contactForm textarea {
+	width: 200px;
+	padding: 2px;
+	border-top: 1px solid #151515;
+	border-right: 1px solid #4b4b4b;
+	border-bottom: 1px solid #4b4b4b;
+	border-left: 1px solid #151515;	
+	background-color: #f0f0f0;
+}
+.sendButton {
+	height: 26px; width: auto !important;
+	padding: 0 9px  !important;
+	border: none !important;
+	color: #fff;
+	font-weight: bold;
+	background: transparent url('../images/btn-send.gif') repeat-x 0 0;
+	cursor: pointer;
+}
+.project {
+	margin: 10px 0; padding: 5px 0;
+	background: transparent url('../images/bg-new.png') repeat-x 0 bottom;
+}
+.projectInfo {
+	float: left;
+	width: 500px;
+}
+.projectThumb {
+	float: left;
+}
+.portrait {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+#mapLink {
+	display: block;
+	width: 220px; height: 50px;
+	text-align: right;
+	background: transparent url('../images/bg-map-link.png') no-repeat 0 0;
+}
+#mapLink a  {
+	display: block;
+	width: 220px; height: 50px;
+	padding: 5px 0;
+}
+#mapLink a  span{
+	color: #fff;
+	text-decoration: none !important;
+}
+#mapLink a:hover span{
+	color: #fff;
+	text-decoration: none !important;
+}
